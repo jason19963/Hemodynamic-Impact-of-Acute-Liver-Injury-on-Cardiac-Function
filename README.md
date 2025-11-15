@@ -1,4 +1,5 @@
-# CRIMSON 0D Simulation Files
+# Hemodynamic-Impact-of-Acute-Liver-Injury-on-Cardiac-Function
+
 
 ## Overview
 This repository contains simulation files generated using the open-source hemodynamics software **CRIMSON** in 0D mode.(https://crimson.software/). These files represent the baseline simulations used in the study. By adjusting the parameters within these files, users can create personalized or customized simulation scenarios.
