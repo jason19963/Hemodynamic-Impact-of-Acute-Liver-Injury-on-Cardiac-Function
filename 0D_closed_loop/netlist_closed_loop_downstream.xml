@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<netlistCircuits>
+	<circuit>
+		<circuitIndex>1</circuitIndex>
+		<components>
+			<component>
+				<index>1</index>
+				<type>resistor</type>
+				<startNodeIndex>1</startNodeIndex>
+				<endNodeIndex>2</endNodeIndex>
+				<parameterValue>0.000001</parameterValue>
+			</component>
+		</components>
+		<nodes>
+			<node>
+				<index>1</index>
+				<initialPressure>2000</initialPressure>
+				<upstreamConnectivity>
+					<connection>
+						<upstreamCircuitSurfaceIndex>2</upstreamCircuitSurfaceIndex>
+						<connectsToUpstreamNode>2</connectsToUpstreamNode>
+					</connection>
+					<connection>
+						<upstreamCircuitSurfaceIndex>3</upstreamCircuitSurfaceIndex>
+						<connectsToUpstreamNode>2</connectsToUpstreamNode>
+					</connection>
+					<connection>
+						<upstreamCircuitSurfaceIndex>4</upstreamCircuitSurfaceIndex>
+						<connectsToUpstreamNode>2</connectsToUpstreamNode>
+					</connection>
+				</upstreamConnectivity>
+			</node>
+			<node>
+				<index>2</index>
+				<initialPressure>300</initialPressure>
+				<upstreamConnectivity>
+					<connection>
+						<upstreamCircuitSurfaceIndex>5</upstreamCircuitSurfaceIndex>
+						<connectsToUpstreamNode>29</connectsToUpstreamNode>
+					</connection>
+				</upstreamConnectivity>
+			</node>
+		</nodes>
+	</circuit>
+</netlistCircuits>

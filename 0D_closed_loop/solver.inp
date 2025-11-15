@@ -1,0 +1,69 @@
+
+
+# CARDIOVASCULAR MODELING PARAMETERS
+# {
+    Global Node Numbering : True
+    Influx Coefficient : 0.5
+    Residual Control : True
+    Residual Criteria : 0.001
+    Minimum Required Iterations : 2
+    Number of Coupled Surfaces : 1
+    Pressure Coupling : Implicit
+    Number of Surfaces which Output Pressure and Flow : 4
+    List of Output Surfaces : 2 3 4 5
+    Simulate in Purely Zero Dimensions : True
+# }
+
+
+# CARDIOVASCULAR MODELING PARAMETERS: NETLIST LPNs
+# {
+    Number of Netlist LPN Surfaces : 4
+    List of Netlist LPN Surfaces : 5 4 3 2
+    Number of Loop Closing Netlist Circuits : 1
+# }
+
+
+# DISCRETIZATION CONTROL
+# {
+    Basis Function Order : 1
+    Quadrature Rule on Interior : 2
+    Quadrature Rule on Boundary : 2
+    Include Viscous Correction in Stabilization : True
+    Lumped Mass Fraction on Left-hand-side : 0.0
+    Lumped Mass Fraction on Right-hand-side : 0.0
+    Time Integration Rule : Second Order
+    Time Integration Rho Infinity : 0.0
+    Flow Advection Form : Convective
+# }
+
+
+# LINEAR SOLVER
+# {
+    Step Construction : 0 1 0 1 0 1 0 1 0 1  # this is the standard 5 iteration
+    Solver Type : memLS
+# }
+
+
+# MATERIAL PROPERTIES
+# {
+    Viscosity : 0.004
+    Density : 0.00106
+# }
+
+
+# OUTPUT CONTROL
+# {
+    Print Error Indicators : True
+    Number of Timesteps between Restarts : 4000
+    Print ybar : True
+    Number of Force Surfaces : 3
+    Surface ID's for Force Calculation : 6 7 8
+# }
+
+
+# SOLUTION CONTROL
+# {
+    Equation of State : Incompressible
+    Number of Timesteps : 8001
+    Time Step Size : 0.001
+# }
